@@ -1,0 +1,139 @@
+body {
+   font-family: "Crimson Text", "Times New Roman", serif;
+   background-color: #F2FFFC;
+   font-size: 120%;
+   line-height: 1.5;
+}
+
+h1,
+h2 {
+   font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+.conteudo-principal {
+   box-sizing: border-box;
+}
+
+.titulo-principal {
+   text-align: center;
+   color: #FFF;
+   background-color: #851944;
+   padding: 25px;
+   margin: 0;
+   border-bottom: 10px solid #000;
+   font-size: 60px;
+   text-transform: uppercase;
+}
+.texto-principal {
+   margin: 0 auto;
+   width: 720px;
+   box-sizing: border-box;
+   padding: 30px 0;
+}
+
+.conteudo-principal a {
+   color: #851944;
+}
+
+h2 {
+   font-size: 30px;
+   clear: both;
+}
+
+p {
+   text-align: justify;
+   margin: 20px 0;
+}
+
+
+.conteudo-secundario {
+   background-color: #3C1D3D;
+   color: #F2FFFC;
+   text-align: center;
+}
+
+.conteudo-secundario h1 {
+   font-size: 30px;
+   margin-bottom: 25px;
+}
+.icones-sociais li {
+   display: inline-block;
+}
+.icones-sociais a {
+   width: 40px;
+   height: 40px;
+   text-indent: -9999px;
+   display: inline-block;
+}
+
+.github {
+   background-image: url(../img/github.png);
+}
+
+.twitter {
+   background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+   background-image: url(../img/linkedin.png);
+}
+
+.conteudo-secundario a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+#rodape-pagina {
+   text-align: center;
+   background-color: #000;
+   color: #F2FFFC;
+   clear: both;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}
+
+blockquote,
+aside,
+footer {
+   padding: 20px;
+}
+
+strong {
+   font-weight: bold;
+}
+
+em {
+   font-style: italic;
+}
+
+
+
+.conteudo-secundario,
+.minha-foto {
+   float: right;
+
+   border-bottom: 10px solid black;
+   border-left: 10px solid black;
+   box-sizing: border-box;
+}
+
+aside {
+   clear: right;
+   position: relative;
+   box-sizing: border-box;
+   width: 15%;
+   top: 310px;
+}
+
+main {
+   float: left;
+   width: 85%;
+   padding-bottom: 40px;
+}
+
+.minha-foto {
+   position: absolute;
+   top: 0;
+   right: 0;
+}

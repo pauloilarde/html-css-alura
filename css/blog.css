@@ -1,0 +1,14 @@
+.artigos footer {
+   padding-bottom: 30px;
+   border-bottom: 2px solid #CCC;
+   margin-bottom: 20px;
+}
+
+.leia-mais {
+   font-size: 120%;
+   padding: 5px;
+   margin: 5px;
+   display: block;
+   text-align: center;
+   background-color: #E6E7E8;
+}
