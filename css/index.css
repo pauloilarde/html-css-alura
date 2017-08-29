@@ -1,4 +1,4 @@
-.inicio-post {
+.blog .inicio-post {
    position: absolute;
    top: 3em;
    right: 3em;
@@ -6,6 +6,8 @@
    color: #000;
    background-color: #FFF;
    padding: 1em;
+   width: 60%;
+   box-sizing: border-box;
 }
 .foto-home {
     height: 200px;
@@ -87,6 +89,9 @@
     padding: .5em;
     display: block;
 }
+header {
+   position: relative;
+}
 .titulo-principal .subtitulo-principal {
    font-size: .5em;
    text-align: center;
@@ -99,7 +104,57 @@
 .eficiencia {
     position: absolute;
     top: 20%;
-    left: 75%;
+    left: 80%;
+}
+.boas-praticas {
+   position: absolute;
+   top: 30%;
+   left: 10%;
+}
+.codigo-limpo {
+   position: absolute;
+   top: 60%;
+   left: 10%
+}
+.css3 {
+   position: absolute;
+   top: 70%;
+   left: 25%;
+}
+.html5 {
+   position: absolute;
+   top: 50%;
+   left: 85%;
+}
+.javascript {
+   position: absolute;
+   top: 10%;
+   left: 65%;
+}
+.acessibilidade {
+   position: absolute;
+   top: 80%;
+   left: 80%;
+}
+.responsivo {
+   position: absolute;
+   top: 10%;
+   left: 18%;
+}
+.otimizacoes {
+   position: absolute;
+   top: 60%;
+   left: 75%;
+}
+.agilidade {
+   position: absolute;
+   top: 40%;
+   left: 75%;
+}
+.design {
+   position: absolute;
+   top: 40%;
+   left: 25%;
 }
 
 footer {
